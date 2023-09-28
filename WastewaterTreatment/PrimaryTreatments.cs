@@ -17,7 +17,7 @@ namespace WastewaterTreatment
         }
         public override void RemoveImpurity(SewageWater water)
         {
-            removedAmount = sedimentation.Sedimentation(water, efficiency, "organic");
+            removedAmount = sedimentation.Sedimentation(water, efficiency, "organic"); 
             sewageSludge.addSludge(removedAmount);
         }
 

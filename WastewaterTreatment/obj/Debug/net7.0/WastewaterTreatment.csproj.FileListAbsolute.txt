@@ -1,0 +1,15 @@
+D:\Visual Studio Projects\WastewaterTreatment\WastewaterTreatment\bin\Debug\net7.0\WastewaterTreatment.exe
+D:\Visual Studio Projects\WastewaterTreatment\WastewaterTreatment\bin\Debug\net7.0\WastewaterTreatment.deps.json
+D:\Visual Studio Projects\WastewaterTreatment\WastewaterTreatment\bin\Debug\net7.0\WastewaterTreatment.runtimeconfig.json
+D:\Visual Studio Projects\WastewaterTreatment\WastewaterTreatment\bin\Debug\net7.0\WastewaterTreatment.dll
+D:\Visual Studio Projects\WastewaterTreatment\WastewaterTreatment\bin\Debug\net7.0\WastewaterTreatment.pdb
+D:\Visual Studio Projects\WastewaterTreatment\WastewaterTreatment\obj\Debug\net7.0\WastewaterTreatment.csproj.AssemblyReference.cache
+D:\Visual Studio Projects\WastewaterTreatment\WastewaterTreatment\obj\Debug\net7.0\WastewaterTreatment.GeneratedMSBuildEditorConfig.editorconfig
+D:\Visual Studio Projects\WastewaterTreatment\WastewaterTreatment\obj\Debug\net7.0\WastewaterTreatment.AssemblyInfoInputs.cache
+D:\Visual Studio Projects\WastewaterTreatment\WastewaterTreatment\obj\Debug\net7.0\WastewaterTreatment.AssemblyInfo.cs
+D:\Visual Studio Projects\WastewaterTreatment\WastewaterTreatment\obj\Debug\net7.0\WastewaterTreatment.csproj.CoreCompileInputs.cache
+D:\Visual Studio Projects\WastewaterTreatment\WastewaterTreatment\obj\Debug\net7.0\WastewaterTreatment.dll
+D:\Visual Studio Projects\WastewaterTreatment\WastewaterTreatment\obj\Debug\net7.0\refint\WastewaterTreatment.dll
+D:\Visual Studio Projects\WastewaterTreatment\WastewaterTreatment\obj\Debug\net7.0\WastewaterTreatment.pdb
+D:\Visual Studio Projects\WastewaterTreatment\WastewaterTreatment\obj\Debug\net7.0\WastewaterTreatment.genruntimeconfig.cache
+D:\Visual Studio Projects\WastewaterTreatment\WastewaterTreatment\obj\Debug\net7.0\ref\WastewaterTreatment.dll

@@ -15,6 +15,7 @@ namespace WastewaterTreatment
         {
             this.sewageSludge = sewageSludge;
             this.settlingTank = settlingTank;
+            this.aerationTank = aerationTank;
         }
         public override void RemoveImpurity(SewageWater water)
         {

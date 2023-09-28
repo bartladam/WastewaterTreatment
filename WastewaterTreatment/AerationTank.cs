@@ -16,7 +16,9 @@ namespace WastewaterTreatment
         }
         public void Aeration(SewageWater water, int efficiency, SettlingTank settlingTank, SewageSludge sewageSludge)
         {
-            water.organicPolutants = water.organicPolutants * (1 - (efficiency / 100));
+            double currentStatus = water.organicPolutants;
+            water.organicPolutants = Math.Round(water.organicPolutants * (1d - (efficiency / 100d)));
+            microorganism += ((int)currentStatus - (int)water.organicPolutants) / 3;
             sewageSludge.addSludge(settlingTank.Sedimentation(microorganism, this));
         }
     }

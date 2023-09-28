@@ -8,10 +8,14 @@ namespace WastewaterTreatment
 {
     internal class SewageSludge
     {
-        private int amountSewageSludge { get; set; }
-        public void addSludge(int amount)
+        private double amountSewageSludge { get; set; }
+        public void addSludge(double amount)
         {
             amountSewageSludge += amount;
+        }
+        public override string ToString()
+        {
+            return amountSewageSludge.ToString();
         }
     }
 }

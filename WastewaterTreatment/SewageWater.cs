@@ -9,11 +9,11 @@ namespace WastewaterTreatment
 {
     internal class SewageWater
     {
-        public int amountSand { get; set; }
+        public double amountSand { get; set; }
         public int amountGravel { get; set; }
         public int largerParticles { get; set; }
-        public int organicPolutants { get; set; }
-        public SewageWater(int amountSand, int amountGravel, int largerParticles, int organicPolutants)
+        public double organicPolutants { get; set; }
+        public SewageWater(int amountSand, int amountGravel, int largerParticles, double organicPolutants)
         {
             this.amountSand = amountSand;
             this.amountGravel = amountGravel;
