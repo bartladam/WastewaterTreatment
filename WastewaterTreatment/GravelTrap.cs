@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace WastewaterTreatment
 {
-    internal class GravelTrap
+    internal class GravelTrap: Treatment
     {
+        public GravelTrap(int efficiency):base(efficiency)
+        {
+
+        }
+        public override void RemoveImpurity(SewageWater water)
+        {
+            water.amountGravel = water.amountGravel * (1 - (efficiency / 100));
+        }
     }
 }

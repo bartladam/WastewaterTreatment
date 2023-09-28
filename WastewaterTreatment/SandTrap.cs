@@ -6,7 +6,16 @@ using System.Threading.Tasks;
 
 namespace WastewaterTreatment
 {
-    internal class SandTrap
+    internal class SandTrap:Treatment
     {
+        private SedimentationTank sedimentation { get; set; }
+        public SandTrap(int efficiency, SedimentationTank sedimentation) : base(efficiency)
+        {
+            this.sedimentation = sedimentation;
+        }
+        public override void RemoveImpurity(SewageWater water)
+        {
+            removedAmount = sedimentation.Sedimentation(water, efficiency, "sand"); // maybe change
+        }
     }
 }
