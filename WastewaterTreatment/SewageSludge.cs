@@ -8,5 +8,10 @@ namespace WastewaterTreatment
 {
     internal class SewageSludge
     {
+        private int amountSewageSludge { get; set; }
+        public void addSludge(int amount)
+        {
+            amountSewageSludge += amount;
+        }
     }
 }
