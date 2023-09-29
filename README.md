@@ -9,6 +9,6 @@ USED SKILLS:
 6. Attributes
 7. Properties (get, set)
 
-NOTES:
+NOTE:
 -------------
 .NET 7.0
