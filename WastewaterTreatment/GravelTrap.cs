@@ -12,9 +12,13 @@ namespace WastewaterTreatment
         {
 
         }
+        /// <summary>
+        /// Here we are cleaning gravel. Big particles can destroy devices wastewater treatment plant
+        /// </summary>
+        /// <param name="water"></param>
         public override void RemoveImpurity(SewageWater water)
         {
-            water.amountGravel = water.amountGravel * (1 - (efficiency / 100));
+            water.amountGravel = Math.Round(water.amountGravel * (1d - (efficiency / 100d)));
         }
     }
 }

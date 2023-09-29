@@ -9,16 +9,28 @@ namespace WastewaterTreatment
 {
     internal class SewageWater
     {
+        /// <summary>
+        /// Amount sand in wastewater
+        /// </summary>
         public double amountSand { get; set; }
-        public int amountGravel { get; set; }
-        public int largerParticles { get; set; }
-        public double organicPolutants { get; set; }
-        public SewageWater(int amountSand, int amountGravel, int largerParticles, double organicPolutants)
+        /// <summary>
+        /// Amount gravel in wastewater
+        /// </summary>
+        public double amountGravel { get; set; }
+        /// <summary>
+        /// Amount larger particles in wastewater
+        /// </summary>
+        public double largerParticles { get; set; }
+        /// <summary>
+        /// The big part of wastewater are organic pollutants
+        /// </summary>
+        public double organicPollutants { get; set; }
+        public SewageWater(int amountSand, int amountGravel, int largerParticles, double organicPollutants)
         {
             this.amountSand = amountSand;
             this.amountGravel = amountGravel;
             this.largerParticles = largerParticles;
-            this.organicPolutants = organicPolutants;
+            this.organicPollutants = organicPollutants;
         }
     }
 }

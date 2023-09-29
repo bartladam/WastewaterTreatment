@@ -13,9 +13,13 @@ namespace WastewaterTreatment
         {
             this.sedimentation = sedimentation;
         }
+        /// <summary>
+        /// Here we are cleaning sand. Sand is always problem for devices. We have to remove sand with success 98%
+        /// </summary>
+        /// <param name="water"></param>
         public override void RemoveImpurity(SewageWater water)
         {
-            removedAmount = sedimentation.Sedimentation(water, efficiency, "sand"); // maybe change
+            sedimentation.Sedimentation(water, efficiency, "sand"); // maybe change
         }
     }
 }

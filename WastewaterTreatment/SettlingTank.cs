@@ -8,6 +8,12 @@ namespace WastewaterTreatment
 {
     internal class SettlingTank
     {
+        /// <summary>
+        /// Process of separation surplus microorganism from water
+        /// </summary>
+        /// <param name="microorganism"></param>
+        /// <param name="aeration"></param>
+        /// <returns></returns>
         public double Sedimentation(int microorganism, AerationTank aeration)
         {
             double sewageSludgeAmount = 0;

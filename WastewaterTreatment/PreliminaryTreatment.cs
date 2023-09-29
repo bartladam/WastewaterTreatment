@@ -8,8 +8,17 @@ namespace WastewaterTreatment
 {
     internal class PreliminaryTreatment
     {
+        /// <summary>
+        /// Part of preliminary treatment
+        /// </summary>
         private GravelTrap gravelTrap { get; set; }
+        /// <summary>
+        /// Part of preliminary treatment
+        /// </summary>
         private Filtration filtration { get; set; }
+        /// <summary>
+        /// Part of preliminary treatment
+        /// </summary>
         private SandTrap sandTrap { get; set; }
         public PreliminaryTreatment(GravelTrap gravelTrap, Filtration filtration, SandTrap sandTrap)
         {
@@ -17,6 +26,10 @@ namespace WastewaterTreatment
             this.filtration = filtration;
             this.sandTrap = sandTrap;
         }
+        /// <summary>
+        /// Cleaning in the preliminary part
+        /// </summary>
+        /// <param name="water"></param>
         public void Process(SewageWater water)
         {
             gravelTrap.RemoveImpurity(water);

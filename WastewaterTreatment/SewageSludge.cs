@@ -8,7 +8,14 @@ namespace WastewaterTreatment
 {
     internal class SewageSludge
     {
+        /// <summary>
+        /// Amount collected sewage sludge
+        /// </summary>
         private double amountSewageSludge { get; set; }
+        /// <summary>
+        /// When we separated organic pollutants, so this pollutants are collected here
+        /// </summary>
+        /// <param name="amount"></param>
         public void addSludge(double amount)
         {
             amountSewageSludge += amount;
